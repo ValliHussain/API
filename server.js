@@ -40,6 +40,6 @@ app.get("/api/data", async (req, res) => {
 });
 
 // Start HTTPS server
-https.createServer(app).listen(PORT, () => {
-  console.log(`🚀 HTTPS API Server running at https://localhost:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`🚀 API Server running at http://0.0.0.0:${PORT}`);
 });
