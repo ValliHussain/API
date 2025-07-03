@@ -1,0 +1,22 @@
+{
+  "name": "snowflake-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "nodemon": "^3.1.10",
+    "snowflake-sdk": "^2.1.1"
+  }
+}
